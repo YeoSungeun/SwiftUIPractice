@@ -10,6 +10,7 @@ import SwiftUI
 struct ProfileImage {
     let id = UUID()
     let name: String
+    let index: Int
     var isSelected: Bool
 }
 
@@ -17,26 +18,20 @@ struct ProfileImageSelectedView: View {
     
     @Binding var list: [ProfileImage]
     
-    struct ProfileImage {
-        let id = UUID()
-        let name: String
-        var isSelected: Bool
-    }
-    
     var body: some View {
         VStack {
-            Text()
+            Text("")
             Button("zmffla") {
-                profilename = "바뀸!"
+               
             }
         }
         .navigationTitle("PROFILE SETTING")
     }
 }
-
-#Preview {
-    ProfileImageSelectedView(profilename: .constant(""))
-}
+//
+//#Preview {
+//    ProfileImageSelectedView(list: )
+//}
 
 struct ProfileImageGridView: View {
 

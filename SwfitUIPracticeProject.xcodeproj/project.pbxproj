@@ -16,6 +16,10 @@
 		A0B668E12C85E8CC00C70E71 /* ProfileSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B668E02C85E8CC00C70E71 /* ProfileSettingView.swift */; };
 		A0B668E32C85EB2400C70E71 /* ProfileImageSelectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B668E22C85EB2400C70E71 /* ProfileImageSelectedView.swift */; };
 		A0B668E52C85F08500C70E71 /* SelectedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B668E42C85F08500C70E71 /* SelectedImage.swift */; };
+		A0B668FB2C87202600C70E71 /* CoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B668FA2C87202600C70E71 /* CoinView.swift */; };
+		A0B668FD2C87208200C70E71 /* UpbitAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B668FC2C87208200C70E71 /* UpbitAPI.swift */; };
+		A0B668FF2C8720A200C70E71 /* Market.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B668FE2C8720A200C70E71 /* Market.swift */; };
+		A0B669012C872DA400C70E71 /* CoinDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B669002C872DA400C70E71 /* CoinDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,10 @@
 		A0B668E02C85E8CC00C70E71 /* ProfileSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSettingView.swift; sourceTree = "<group>"; };
 		A0B668E22C85EB2400C70E71 /* ProfileImageSelectedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageSelectedView.swift; sourceTree = "<group>"; };
 		A0B668E42C85F08500C70E71 /* SelectedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedImage.swift; sourceTree = "<group>"; };
+		A0B668FA2C87202600C70E71 /* CoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinView.swift; sourceTree = "<group>"; };
+		A0B668FC2C87208200C70E71 /* UpbitAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpbitAPI.swift; sourceTree = "<group>"; };
+		A0B668FE2C8720A200C70E71 /* Market.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Market.swift; sourceTree = "<group>"; };
+		A0B669002C872DA400C70E71 /* CoinDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +77,7 @@
 				A0B668D42C85E07400C70E71 /* OnboardingView.swift */,
 				A0B668E02C85E8CC00C70E71 /* ProfileSettingView.swift */,
 				A0B668E22C85EB2400C70E71 /* ProfileImageSelectedView.swift */,
+				A0B668F92C87201100C70E71 /* Coin */,
 			);
 			path = SwfitUIPracticeProject;
 			sourceTree = "<group>";
@@ -96,6 +105,17 @@
 				A0B668DB2C85E62900C70E71 /* ButtonWrapper.swift */,
 			);
 			path = Wrapper;
+			sourceTree = "<group>";
+		};
+		A0B668F92C87201100C70E71 /* Coin */ = {
+			isa = PBXGroup;
+			children = (
+				A0B668FC2C87208200C70E71 /* UpbitAPI.swift */,
+				A0B668FE2C8720A200C70E71 /* Market.swift */,
+				A0B668FA2C87202600C70E71 /* CoinView.swift */,
+				A0B669002C872DA400C70E71 /* CoinDetailView.swift */,
+			);
+			path = Coin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,12 +189,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0B668E52C85F08500C70E71 /* SelectedImage.swift in Sources */,
+				A0B668FD2C87208200C70E71 /* UpbitAPI.swift in Sources */,
+				A0B669012C872DA400C70E71 /* CoinDetailView.swift in Sources */,
 				A0B668DC2C85E62900C70E71 /* ButtonWrapper.swift in Sources */,
 				A0B668DE2C85E63300C70E71 /* RadiusBackground.swift in Sources */,
 				A0B668D52C85E07400C70E71 /* OnboardingView.swift in Sources */,
 				A0B668C72C85D03300C70E71 /* SwfitUIPracticeProjectApp.swift in Sources */,
+				A0B668FB2C87202600C70E71 /* CoinView.swift in Sources */,
 				A0B668E12C85E8CC00C70E71 /* ProfileSettingView.swift in Sources */,
 				A0B668E32C85EB2400C70E71 /* ProfileImageSelectedView.swift in Sources */,
+				A0B668FF2C8720A200C70E71 /* Market.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

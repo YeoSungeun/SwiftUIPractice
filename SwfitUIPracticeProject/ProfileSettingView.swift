@@ -10,11 +10,13 @@ import SwiftUI
 struct ProfileSettingView: View {
     
     @State var profilename: String = "profile_0"
+    @State var list: [ProfileImage] = []
+    
     
     var body: some View {
         VStack {
             NavigationLink {
-                ProfileImageSelectedView(profilename: profilename)
+                ProfileImageSelectedView(list: $list)
             } label: {
                 Image(profilename)
                     .asSelectedImage()
