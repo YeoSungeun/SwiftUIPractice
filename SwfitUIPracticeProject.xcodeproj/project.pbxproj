@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		A0B668C72C85D03300C70E71 /* SwfitUIPracticeProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B668C62C85D03300C70E71 /* SwfitUIPracticeProjectApp.swift */; };
-		A0B668C92C85D03300C70E71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B668C82C85D03300C70E71 /* ContentView.swift */; };
 		A0B668CB2C85D03600C70E71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0B668CA2C85D03600C70E71 /* Assets.xcassets */; };
 		A0B668CE2C85D03600C70E71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0B668CD2C85D03600C70E71 /* Preview Assets.xcassets */; };
+		A0B668D52C85E07400C70E71 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B668D42C85E07400C70E71 /* OnboardingView.swift */; };
+		A0B668DC2C85E62900C70E71 /* ButtonWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B668DB2C85E62900C70E71 /* ButtonWrapper.swift */; };
+		A0B668DE2C85E63300C70E71 /* RadiusBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B668DD2C85E63300C70E71 /* RadiusBackground.swift */; };
+		A0B668E12C85E8CC00C70E71 /* ProfileSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B668E02C85E8CC00C70E71 /* ProfileSettingView.swift */; };
+		A0B668E32C85EB2400C70E71 /* ProfileImageSelectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B668E22C85EB2400C70E71 /* ProfileImageSelectedView.swift */; };
+		A0B668E52C85F08500C70E71 /* SelectedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B668E42C85F08500C70E71 /* SelectedImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A0B668C32C85D03300C70E71 /* SwfitUIPracticeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwfitUIPracticeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0B668C62C85D03300C70E71 /* SwfitUIPracticeProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwfitUIPracticeProjectApp.swift; sourceTree = "<group>"; };
-		A0B668C82C85D03300C70E71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A0B668CA2C85D03600C70E71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0B668CD2C85D03600C70E71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A0B668D42C85E07400C70E71 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		A0B668DB2C85E62900C70E71 /* ButtonWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonWrapper.swift; sourceTree = "<group>"; };
+		A0B668DD2C85E63300C70E71 /* RadiusBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiusBackground.swift; sourceTree = "<group>"; };
+		A0B668E02C85E8CC00C70E71 /* ProfileSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSettingView.swift; sourceTree = "<group>"; };
+		A0B668E22C85EB2400C70E71 /* ProfileImageSelectedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageSelectedView.swift; sourceTree = "<group>"; };
+		A0B668E42C85F08500C70E71 /* SelectedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +61,14 @@
 		A0B668C52C85D03300C70E71 /* SwfitUIPracticeProject */ = {
 			isa = PBXGroup;
 			children = (
+				A0B668DF2C85E63A00C70E71 /* Wrapper */,
+				A0B668D62C85E1F900C70E71 /* CustomModifier */,
 				A0B668C62C85D03300C70E71 /* SwfitUIPracticeProjectApp.swift */,
-				A0B668C82C85D03300C70E71 /* ContentView.swift */,
 				A0B668CA2C85D03600C70E71 /* Assets.xcassets */,
 				A0B668CC2C85D03600C70E71 /* Preview Content */,
+				A0B668D42C85E07400C70E71 /* OnboardingView.swift */,
+				A0B668E02C85E8CC00C70E71 /* ProfileSettingView.swift */,
+				A0B668E22C85EB2400C70E71 /* ProfileImageSelectedView.swift */,
 			);
 			path = SwfitUIPracticeProject;
 			sourceTree = "<group>";
@@ -65,6 +79,23 @@
 				A0B668CD2C85D03600C70E71 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A0B668D62C85E1F900C70E71 /* CustomModifier */ = {
+			isa = PBXGroup;
+			children = (
+				A0B668DD2C85E63300C70E71 /* RadiusBackground.swift */,
+				A0B668E42C85F08500C70E71 /* SelectedImage.swift */,
+			);
+			path = CustomModifier;
+			sourceTree = "<group>";
+		};
+		A0B668DF2C85E63A00C70E71 /* Wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				A0B668DB2C85E62900C70E71 /* ButtonWrapper.swift */,
+			);
+			path = Wrapper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +168,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0B668C92C85D03300C70E71 /* ContentView.swift in Sources */,
+				A0B668E52C85F08500C70E71 /* SelectedImage.swift in Sources */,
+				A0B668DC2C85E62900C70E71 /* ButtonWrapper.swift in Sources */,
+				A0B668DE2C85E63300C70E71 /* RadiusBackground.swift in Sources */,
+				A0B668D52C85E07400C70E71 /* OnboardingView.swift in Sources */,
 				A0B668C72C85D03300C70E71 /* SwfitUIPracticeProjectApp.swift in Sources */,
+				A0B668E12C85E8CC00C70E71 /* ProfileSettingView.swift in Sources */,
+				A0B668E32C85EB2400C70E71 /* ProfileImageSelectedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
