@@ -20,6 +20,7 @@
 		A0B668FD2C87208200C70E71 /* UpbitAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B668FC2C87208200C70E71 /* UpbitAPI.swift */; };
 		A0B668FF2C8720A200C70E71 /* Market.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B668FE2C8720A200C70E71 /* Market.swift */; };
 		A0B669012C872DA400C70E71 /* CoinDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B669002C872DA400C70E71 /* CoinDetailView.swift */; };
+		A0B669042C87781500C70E71 /* OkayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B669032C87781500C70E71 /* OkayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		A0B668FC2C87208200C70E71 /* UpbitAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpbitAPI.swift; sourceTree = "<group>"; };
 		A0B668FE2C8720A200C70E71 /* Market.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Market.swift; sourceTree = "<group>"; };
 		A0B669002C872DA400C70E71 /* CoinDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailView.swift; sourceTree = "<group>"; };
+		A0B669032C87781500C70E71 /* OkayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +76,7 @@
 				A0B668C62C85D03300C70E71 /* SwfitUIPracticeProjectApp.swift */,
 				A0B668CA2C85D03600C70E71 /* Assets.xcassets */,
 				A0B668CC2C85D03600C70E71 /* Preview Content */,
-				A0B668D42C85E07400C70E71 /* OnboardingView.swift */,
-				A0B668E02C85E8CC00C70E71 /* ProfileSettingView.swift */,
-				A0B668E22C85EB2400C70E71 /* ProfileImageSelectedView.swift */,
+				A0B669022C87319400C70E71 /* Profile */,
 				A0B668F92C87201100C70E71 /* Coin */,
 			);
 			path = SwfitUIPracticeProject;
@@ -116,6 +116,17 @@
 				A0B669002C872DA400C70E71 /* CoinDetailView.swift */,
 			);
 			path = Coin;
+			sourceTree = "<group>";
+		};
+		A0B669022C87319400C70E71 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A0B668D42C85E07400C70E71 /* OnboardingView.swift */,
+				A0B668E02C85E8CC00C70E71 /* ProfileSettingView.swift */,
+				A0B668E22C85EB2400C70E71 /* ProfileImageSelectedView.swift */,
+				A0B669032C87781500C70E71 /* OkayView.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0B669042C87781500C70E71 /* OkayView.swift in Sources */,
 				A0B668E52C85F08500C70E71 /* SelectedImage.swift in Sources */,
 				A0B668FD2C87208200C70E71 /* UpbitAPI.swift in Sources */,
 				A0B669012C872DA400C70E71 /* CoinDetailView.swift in Sources */,

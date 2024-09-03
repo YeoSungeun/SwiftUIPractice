@@ -44,7 +44,7 @@ struct CoinView: View {
     }
     
     func listView() -> some View {
-        LazyVStack(content: {
+        LazyVStack {
             ForEach(filterList, id: \.self) { item in
                 NavigationLink {
                     CoinDetailView(market: item)
@@ -53,7 +53,7 @@ struct CoinView: View {
                 }
             }
             .foregroundStyle(.black)
-        })
+        }
     }
     
     func rowView(_ item: Market) -> some View {
