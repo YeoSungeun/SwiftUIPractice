@@ -45,11 +45,13 @@ struct CoinView: View {
     
     func listView() -> some View {
         LazyVStack {
-            ForEach(filterList, id: \.self) { item in
+            ForEach($markets, id: \.id) { $item in
                 NavigationLink {
-                    CoinDetailView(market: item)
+//                    CoinDetailView(market: $item.wrappedValue)
+                    CoinRowView(item: $item)
                 } label: {
-                    rowView(item)
+//                    rowView(item)
+                    CoinRowView(item: $item)
                 }
             }
             .foregroundStyle(.black)
@@ -101,5 +103,28 @@ struct bannerView: View {
             .frame(maxWidth: .infinity, alignment: .leading)
             .padding(30)
         }
+    }
+}
+
+struct CoinRowView: View {
+    @Binding var item: Market
+    var body: some View {
+        HStack {
+            VStack(alignment: .leading) {
+                Text(item.koreanName)
+                    .font(.title3)
+                    .bold()
+                Text(item.englishName)
+            }
+            Spacer()
+            Text(item.market)
+            Button(action: {
+                item.like.toggle()
+            }, label: {
+                Image(systemName: item.like ? "star.fill" : "star")
+                    .foregroundStyle(.yellow)
+            })
+        }
+        .padding()
     }
 }
