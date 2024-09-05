@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A06AB9CB2C89E94B00C29E37 /* LazyNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06AB9CA2C89E94B00C29E37 /* LazyNavigationView.swift */; };
 		A0B668C72C85D03300C70E71 /* SwfitUIPracticeProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B668C62C85D03300C70E71 /* SwfitUIPracticeProjectApp.swift */; };
 		A0B668CB2C85D03600C70E71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0B668CA2C85D03600C70E71 /* Assets.xcassets */; };
 		A0B668CE2C85D03600C70E71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0B668CD2C85D03600C70E71 /* Preview Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A06AB9CA2C89E94B00C29E37 /* LazyNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyNavigationView.swift; sourceTree = "<group>"; };
 		A0B668C32C85D03300C70E71 /* SwfitUIPracticeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwfitUIPracticeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0B668C62C85D03300C70E71 /* SwfitUIPracticeProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwfitUIPracticeProjectApp.swift; sourceTree = "<group>"; };
 		A0B668CA2C85D03600C70E71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				A0B668CC2C85D03600C70E71 /* Preview Content */,
 				A0B669022C87319400C70E71 /* Profile */,
 				A0B668F92C87201100C70E71 /* Coin */,
+				A06AB9CA2C89E94B00C29E37 /* LazyNavigationView.swift */,
 			);
 			path = SwfitUIPracticeProject;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				A0B668E52C85F08500C70E71 /* SelectedImage.swift in Sources */,
 				A0B668FD2C87208200C70E71 /* UpbitAPI.swift in Sources */,
 				A0B669012C872DA400C70E71 /* CoinDetailView.swift in Sources */,
+				A06AB9CB2C89E94B00C29E37 /* LazyNavigationView.swift in Sources */,
 				A0B668DC2C85E62900C70E71 /* ButtonWrapper.swift in Sources */,
 				A0B668DE2C85E63300C70E71 /* RadiusBackground.swift in Sources */,
 				A0B668D52C85E07400C70E71 /* OnboardingView.swift in Sources */,

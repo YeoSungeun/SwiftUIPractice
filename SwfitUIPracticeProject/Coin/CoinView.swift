@@ -51,26 +51,18 @@ struct CoinView: View {
                     CoinRowView(item: $item)
                 } label: {
 //                    rowView(item)
-                    CoinRowView(item: $item)
+//                    CoinRowView(item: $item)
+//                    LazyNavigationView {
+//                        CoinRowView(item: $item)
+//                    }
+                    LazyNavigationView(CoinRowView(item: $item))
+                    
                 }
             }
             .foregroundStyle(.black)
         }
     }
-    
-    func rowView(_ item: Market) -> some View {
-        HStack {
-            VStack(alignment: .leading) {
-                Text(item.koreanName)
-                    .font(.title3)
-                    .bold()
-                Text(item.englishName)
-            }
-            Spacer()
-            Text(item.market)
-        }
-        .padding()
-    }
+
 }
 
 #Preview {
@@ -127,4 +119,5 @@ struct CoinRowView: View {
         }
         .padding()
     }
+    
 }
