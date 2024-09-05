@@ -58,6 +58,7 @@ struct CoinView: View {
                     LazyNavigationView(CoinRowView(item: $item))
                     
                 }
+             
             }
             .foregroundStyle(.black)
         }
